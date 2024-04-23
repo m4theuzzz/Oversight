@@ -1,0 +1,1234 @@
+{
+	"info": {
+		"_postman_id": "c36a6383-44c4-4f72-87fb-b49638c373c1",
+		"name": "Oversight",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7816163",
+		"_collection_link": "https://martian-spaceship-766594.postman.co/workspace/Oversight~ebb34076-d972-43b0-9812-2bdc372f78cb/collection/7816163-c36a6383-44c4-4f72-87fb-b49638c373c1?action=share&source=collection_link&creator=7816163"
+	},
+	"item": [
+		{
+			"name": "Companies",
+			"item": [
+				{
+					"name": "New Company",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Company test\",\n    \"email\": \"company@gmail.com\",\n    \"cnpj\": 1234567891011,\n    \"phone\": 312123123\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/companies",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"companies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Companies",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/companies",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"companies"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Company",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIzMTdhYWM3LTc5ZDItNDZjOC05MTZkLWIyYWIwNDRkYzVhNSIsImVtYWlsIjoibWF0dnNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjBNbXVJU3J3MWhmeWFYdkNBNkJjWWtLR3hORVNGdFRXQzdoci9YN3dMT1dGdVFzSmtmcVVPaysyMnZUazAvSHBJSk5rbFNpYVZUdjFHR1RCTFpjKzV3V3kxc3dJOWVYYVdQSW13WjVOM2ZRMklQMUFZYnFCQjlQdS9pSlhpTnNBaDd1d0dQMXp4QU9MK1FpTHZFaGNlREd1WTRJPSIsInJvbGUiOiJtYXN0ZXIiLCJleHBpcmVBdCI6IjIwMjMtMDgtMjNUMDY6MTU6MzYuNjUyWiIsImlhdCI6MTY5Mjc0OTczNn0.VB1cXpDAKJeS-8lBaQOug0poLziQndLUOa4JOfa3cUA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/companies/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"companies",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Company",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Company test\",\n    \"cnpj\": 1234567891011,\n    \"phone\": 312123123\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/companies/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"companies",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "af4a6837-91cf-4744-8b1c-d487dbacdde4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Company",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/companies/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"companies",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "af4a6837-91cf-4744-8b1c-d487dbacdde4"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"matvsan@gmail.com\",\n    \"password\": \"hixbek-rapNib-semri3\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/login",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Budgets",
+			"item": [
+				{
+					"name": "New Budget",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customerId\": \"7a67719d-61ef-4067-a308-f131e86f2bef\",\n    \"name\": \"Orçamento do maluco q mora logo ali\",\n    \"description\": \"descrição\",\n    \"incomingMargin\": 15,\n    \"status\": \"budgeting\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/budgets",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Budget Service",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"serviceId\": \"2ce72aaa-3a5b-497d-becb-5595b8a0ba61\",\n    \"quantity\": 3,\n    \"budgetedUnitValue\": 666\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/budgets/:budgetId/services",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":budgetId",
+								"services"
+							],
+							"variable": [
+								{
+									"key": "budgetId",
+									"value": "0e061d68-e7a2-4434-b2bd-a3fa88f54e7f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Budgets",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/budgets",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "pageSize",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "a",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "budgeting",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Budget",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/budgets/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "0e061d68-e7a2-4434-b2bd-a3fa88f54e7f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Budget Services",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/budgets/:budgetId/services",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":budgetId",
+								"services"
+							],
+							"variable": [
+								{
+									"key": "budgetId",
+									"value": "0e061d68-e7a2-4434-b2bd-a3fa88f54e7f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Budget",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customerId\": \"UUID\",\n    \"name\": \"Orçamento do maluco q mora logo ali\",\n    \"description\": \"descrição\",\n    \"incomingMargin\": 15,\n    \"status\": \"budgeting\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/budgets/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Budget Service",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quantity\": 2,\n    \"budgetedUnitValue\": 666\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/budgets/:budgetId/services/:serviceId",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":budgetId",
+								"services",
+								":serviceId"
+							],
+							"variable": [
+								{
+									"key": "budgetId",
+									"value": "0e061d68-e7a2-4434-b2bd-a3fa88f54e7f"
+								},
+								{
+									"key": "serviceId",
+									"value": "2ce72aaa-3a5b-497d-becb-5595b8a0ba61"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Budget Service",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/budgets/:budgetId/services/:serviceId",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":budgetId",
+								"services",
+								":serviceId"
+							],
+							"variable": [
+								{
+									"key": "budgetId",
+									"value": "0e061d68-e7a2-4434-b2bd-a3fa88f54e7f"
+								},
+								{
+									"key": "serviceId",
+									"value": "2ce72aaa-3a5b-497d-becb-5595b8a0ba61"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Budget",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/budgets/:budgetId",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"budgets",
+								":budgetId"
+							],
+							"variable": [
+								{
+									"key": "budgetId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "New Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Matheus\",\n    \"email\": \"matvsan@gmail.com\",\n    \"phone\": 31987654321\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/customers",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Customer Address",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cep\": 87654321,\n    \"street\": \"Rua Teste da Silva Sauro\",\n    \"number\": 666,\n    \"complement\": \"casa\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/customers/:customerId/address",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":customerId",
+								"address"
+							],
+							"variable": [
+								{
+									"key": "customerId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/customers",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "pageSize",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "address",
+									"value": "Rua peixoto",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "josé",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/customers/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customer Address",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/customers/:customerId/address",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":customerId",
+								"address"
+							],
+							"variable": [
+								{
+									"key": "customerId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Customer",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"teste updt\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/customers/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Customer Address",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cep\": 87654321,\n    \"street\": \"Rua Teste da Silva Sauro\",\n    \"number\": 666,\n    \"complement\": \"casa\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/customers/:customerId/address",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":customerId",
+								"address"
+							],
+							"variable": [
+								{
+									"key": "customerId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Customer",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/customers/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"customers",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "New Service",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Aula de Matemática\",\n    \"description\": \"\",\n    \"mesureUnit\": \"hour\",\n    \"value\": 60,\n    \"type\": \"service\",\n    \"errorMargin\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/services",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"services"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Services",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/services",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"services"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "pageSize",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "a",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIzMTdhYWM3LTc5ZDItNDZjOC05MTZkLWIyYWIwNDRkYzVhNSIsImVtYWlsIjoibWF0dnNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjBNbXVJU3J3MWhmeWFYdkNBNkJjWWtLR3hORVNGdFRXQzdoci9YN3dMT1dGdVFzSmtmcVVPaysyMnZUazAvSHBJSk5rbFNpYVZUdjFHR1RCTFpjKzV3V3kxc3dJOWVYYVdQSW13WjVOM2ZRMklQMUFZYnFCQjlQdS9pSlhpTnNBaDd1d0dQMXp4QU9MK1FpTHZFaGNlREd1WTRJPSIsInJvbGUiOiJtYXN0ZXIiLCJleHBpcmVBdCI6IjIwMjMtMDgtMjNUMDY6MTU6MzYuNjUyWiIsImlhdCI6MTY5Mjc0OTczNn0.VB1cXpDAKJeS-8lBaQOug0poLziQndLUOa4JOfa3cUA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/services/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"services",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Service",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIzMTdhYWM3LTc5ZDItNDZjOC05MTZkLWIyYWIwNDRkYzVhNSIsImVtYWlsIjoibWF0dnNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjBNbXVJU3J3MWhmeWFYdkNBNkJjWWtLR3hORVNGdFRXQzdoci9YN3dMT1dGdVFzSmtmcVVPaysyMnZUazAvSHBJSk5rbFNpYVZUdjFHR1RCTFpjKzV3V3kxc3dJOWVYYVdQSW13WjVOM2ZRMklQMUFZYnFCQjlQdS9pSlhpTnNBaDd1d0dQMXp4QU9MK1FpTHZFaGNlREd1WTRJPSIsInJvbGUiOiJtYXN0ZXIiLCJleHBpcmVBdCI6IjIwMjMtMDgtMjNUMDY6MTU6MzYuNjUyWiIsImlhdCI6MTY5Mjc0OTczNn0.VB1cXpDAKJeS-8lBaQOug0poLziQndLUOa4JOfa3cUA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Aula de Matemática\",\n    \"description\": \"\",\n    \"mesureUnit\": \"hour\",\n    \"value\": 60,\n    \"type\": \"service\",\n    \"errorMargin\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/services/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"services",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIzMTdhYWM3LTc5ZDItNDZjOC05MTZkLWIyYWIwNDRkYzVhNSIsImVtYWlsIjoibWF0dnNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjBNbXVJU3J3MWhmeWFYdkNBNkJjWWtLR3hORVNGdFRXQzdoci9YN3dMT1dGdVFzSmtmcVVPaysyMnZUazAvSHBJSk5rbFNpYVZUdjFHR1RCTFpjKzV3V3kxc3dJOWVYYVdQSW13WjVOM2ZRMklQMUFZYnFCQjlQdS9pSlhpTnNBaDd1d0dQMXp4QU9MK1FpTHZFaGNlREd1WTRJPSIsInJvbGUiOiJtYXN0ZXIiLCJleHBpcmVBdCI6IjIwMjMtMDgtMjNUMDY6MTU6MzYuNjUyWiIsImlhdCI6MTY5Mjc0OTczNn0.VB1cXpDAKJeS-8lBaQOug0poLziQndLUOa4JOfa3cUA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/services/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"services",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "New User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Matheus\",\n    \"email\": \"matvsan@gmail.com\",\n    \"role\": \"master\",\n    \"password\": \"hixbek-rapNib-semri3\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/users",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/users",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/users/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/users/:id",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIzMTdhYWM3LTc5ZDItNDZjOC05MTZkLWIyYWIwNDRkYzVhNSIsImVtYWlsIjoibWF0dnNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjBNbXVJU3J3MWhmeWFYdkNBNkJjWWtLR3hORVNGdFRXQzdoci9YN3dMT1dGdVFzSmtmcVVPaysyMnZUazAvSHBJSk5rbFNpYVZUdjFHR1RCTFpjKzV3V3kxc3dJOWVYYVdQSW13WjVOM2ZRMklQMUFZYnFCQjlQdS9pSlhpTnNBaDd1d0dQMXp4QU9MK1FpTHZFaGNlREd1WTRJPSIsInJvbGUiOiJtYXN0ZXIiLCJleHBpcmVBdCI6IjIwMjMtMDgtMjNUMDY6MTU6MzYuNjUyWiIsImlhdCI6MTY5Mjc0OTczNn0.VB1cXpDAKJeS-8lBaQOug0poLziQndLUOa4JOfa3cUA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{local}}/users/{id}",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Messenger",
+			"item": [
+				{
+					"name": "Produce",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "message-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55SWQiOiIyYzI3OTYyZi1jZjJiLTRmYjktOTZjZC1mNDU2NmM4MWJhYTAiLCJidWRnZXRJZCI6ImMzNThiNjc2LTNkN2QtNGQxOS1hZjg0LTM0ZWQ4NjQ0MjBlNiIsImV4cGlyZUF0IjoiMjAyMy0wOS0xNlQwMDozNjo1NC4zMTNaIiwiaWF0IjoxNjk0NTY1NDE0fQ.ZnnQGd2N5d9Bq7g_tDvHRZCfQtzzZpKgD9z1ug56aZU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"teste\",\n    \"approved\": true,\n    \"description\": \"testando\" //opcional\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/message",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"message"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mailer",
+			"item": [
+				{
+					"name": "Send",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": "{{session-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"from\": \"oversight.poster@outlook.com\",\n    \"to\": \"matvsan@gmail.com\",\n    \"subject\": \"Orçamento versão (Data de hoje)\",\n    \"html\": \"<h1>html</h1>\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/mail",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"mail"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

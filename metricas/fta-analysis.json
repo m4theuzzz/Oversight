@@ -1,0 +1,2222 @@
+[
+    {
+        "file_name": "src/gateway/src/modules/Auth.ts",
+        "cyclo": 43,
+        "halstead": {
+            "uniq_operators": 21,
+            "uniq_operands": 113,
+            "total_operators": 376,
+            "total_operands": 466,
+            "program_length": 842,
+            "vocabulary_size": 134,
+            "volume": 5949.647098365444,
+            "difficulty": 41.23893805309734,
+            "effort": 245357.12812728292,
+            "time": 13630.95156262683,
+            "bugs": 1.9832156994551482
+        },
+        "line_count": 204,
+        "fta_score": 58.50968062216166,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/NavBar.tsx",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 91,
+            "total_operators": 103,
+            "total_operands": 231,
+            "program_length": 334,
+            "vocabulary_size": 104,
+            "volume": 2237.9468658591245,
+            "difficulty": 15.23076923076923,
+            "effort": 34085.65226462359,
+            "time": 1893.647348034644,
+            "bugs": 0.7459822886197082
+        },
+        "line_count": 148,
+        "fta_score": 57.629435430534855,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/coverage/lcov-report/sorter.js",
+        "cyclo": 20,
+        "halstead": {
+            "uniq_operators": 20,
+            "uniq_operands": 105,
+            "total_operators": 322,
+            "total_operands": 357,
+            "program_length": 679,
+            "vocabulary_size": 125,
+            "volume": 4729.767529285557,
+            "difficulty": 34.0,
+            "effort": 160812.09599570895,
+            "time": 8934.005333094941,
+            "bugs": 1.5765891764285191
+        },
+        "line_count": 165,
+        "fta_score": 55.350345710672045,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/CompanyForm.tsx",
+        "cyclo": 3,
+        "halstead": {
+            "uniq_operators": 15,
+            "uniq_operands": 64,
+            "total_operators": 73,
+            "total_operands": 158,
+            "program_length": 231,
+            "vocabulary_size": 79,
+            "volume": 1456.1733528289108,
+            "difficulty": 17.28125,
+            "effort": 25164.495753574614,
+            "time": 1398.0275418652564,
+            "bugs": 0.48539111760963694
+        },
+        "line_count": 77,
+        "fta_score": 53.95158003477641,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/TextInput.tsx",
+        "cyclo": 3,
+        "halstead": {
+            "uniq_operators": 14,
+            "uniq_operands": 68,
+            "total_operators": 61,
+            "total_operands": 107,
+            "program_length": 168,
+            "vocabulary_size": 82,
+            "volume": 1068.068736775838,
+            "difficulty": 11.014705882352942,
+            "effort": 11764.4629977221,
+            "time": 653.5812776512278,
+            "bugs": 0.35602291225861266
+        },
+        "line_count": 73,
+        "fta_score": 53.55953697367691,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/src/modules/BudgetService.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 21,
+            "uniq_operands": 63,
+            "total_operators": 185,
+            "total_operands": 188,
+            "program_length": 373,
+            "vocabulary_size": 84,
+            "volume": 2384.334398696478,
+            "difficulty": 29.841269841269842,
+            "effort": 71151.56618332346,
+            "time": 3952.8647879624145,
+            "bugs": 0.7947781328988259
+        },
+        "line_count": 75,
+        "fta_score": 51.819929696856896,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/src/modules/Service.ts",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 27,
+            "uniq_operands": 69,
+            "total_operators": 246,
+            "total_operands": 231,
+            "program_length": 477,
+            "vocabulary_size": 96,
+            "volume": 3141.0271128439913,
+            "difficulty": 43.52173913043478,
+            "effort": 136702.9626068189,
+            "time": 7594.609033712161,
+            "bugs": 1.0470090376146637
+        },
+        "line_count": 91,
+        "fta_score": 51.24895419288752,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/Security.ts",
+        "cyclo": 8,
+        "halstead": {
+            "uniq_operators": 20,
+            "uniq_operands": 100,
+            "total_operators": 189,
+            "total_operands": 230,
+            "program_length": 419,
+            "vocabulary_size": 120,
+            "volume": 2893.9871595599693,
+            "difficulty": 23.0,
+            "effort": 66561.7046698793,
+            "time": 3697.872481659961,
+            "bugs": 0.9646623865199898
+        },
+        "line_count": 88,
+        "fta_score": 51.11567467486149,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/src/modules/Budget.ts",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 27,
+            "uniq_operands": 68,
+            "total_operators": 244,
+            "total_operands": 229,
+            "program_length": 473,
+            "vocabulary_size": 95,
+            "volume": 3107.5417027405383,
+            "difficulty": 43.779411764705884,
+            "effort": 136046.34778027327,
+            "time": 7558.1304322374035,
+            "bugs": 1.035847234246846
+        },
+        "line_count": 89,
+        "fta_score": 51.00657666351779,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/gateway/src/modules/User.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 22,
+            "uniq_operands": 54,
+            "total_operators": 205,
+            "total_operands": 202,
+            "program_length": 407,
+            "vocabulary_size": 76,
+            "volume": 2542.906497971539,
+            "difficulty": 41.148148148148145,
+            "effort": 104635.89330542147,
+            "time": 5813.105183634526,
+            "bugs": 0.8476354993238463
+        },
+        "line_count": 79,
+        "fta_score": 50.728381084886244,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/backend/src/modules/Customer.ts",
+        "cyclo": 8,
+        "halstead": {
+            "uniq_operators": 28,
+            "uniq_operands": 67,
+            "total_operators": 253,
+            "total_operands": 236,
+            "program_length": 489,
+            "vocabulary_size": 95,
+            "volume": 3212.6593924738336,
+            "difficulty": 49.3134328358209,
+            "effort": 158427.26317512756,
+            "time": 8801.51462084042,
+            "bugs": 1.0708864641579445
+        },
+        "line_count": 91,
+        "fta_score": 50.7228503385353,
+        "assessment": "Could be better"
+    },
+    {
+        "file_name": "src/front_web/oversight/utils/resolver.ts",
+        "cyclo": 10,
+        "halstead": {
+            "uniq_operators": 20,
+            "uniq_operands": 52,
+            "total_operators": 149,
+            "total_operands": 129,
+            "program_length": 278,
+            "vocabulary_size": 72,
+            "volume": 1715.2391504009627,
+            "difficulty": 24.807692307692307,
+            "effort": 42551.12507725465,
+            "time": 2363.9513931808137,
+            "bugs": 0.5717463834669876
+        },
+        "line_count": 91,
+        "fta_score": 49.18319427569566,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/main.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 18,
+            "uniq_operands": 60,
+            "total_operators": 137,
+            "total_operands": 132,
+            "program_length": 269,
+            "vocabulary_size": 78,
+            "volume": 1690.773196873945,
+            "difficulty": 19.8,
+            "effort": 33477.30929810411,
+            "time": 1859.8505165613396,
+            "bugs": 0.5635910656246483
+        },
+        "line_count": 58,
+        "fta_score": 49.15940798712849,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/context/AuthContext.tsx",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 42,
+            "total_operators": 83,
+            "total_operands": 95,
+            "program_length": 178,
+            "vocabulary_size": 52,
+            "volume": 1014.6782698291144,
+            "difficulty": 11.30952380952381,
+            "effort": 11475.528051638794,
+            "time": 637.5293362021553,
+            "bugs": 0.3382260899430381
+        },
+        "line_count": 63,
+        "fta_score": 48.709809878665546,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/Company.ts",
+        "cyclo": 6,
+        "halstead": {
+            "uniq_operators": 27,
+            "uniq_operands": 60,
+            "total_operators": 194,
+            "total_operands": 184,
+            "program_length": 378,
+            "vocabulary_size": 87,
+            "volume": 2435.4326414308193,
+            "difficulty": 39.86666666666667,
+            "effort": 97092.581305042,
+            "time": 5394.032294724555,
+            "bugs": 0.8118108804769397
+        },
+        "line_count": 66,
+        "fta_score": 48.553988379621536,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/Consumer.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 17,
+            "uniq_operands": 57,
+            "total_operators": 102,
+            "total_operands": 115,
+            "program_length": 217,
+            "vocabulary_size": 74,
+            "volume": 1347.4513803414823,
+            "difficulty": 16.140350877192983,
+            "effort": 21748.33806866954,
+            "time": 1208.2410038149744,
+            "bugs": 0.4491504601138274
+        },
+        "line_count": 53,
+        "fta_score": 48.1452587558818,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/types/UserTypes.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 33,
+            "total_operators": 44,
+            "total_operands": 106,
+            "program_length": 150,
+            "vocabulary_size": 43,
+            "volume": 813.9397132053147,
+            "difficulty": 16.060606060606062,
+            "effort": 13072.365090873236,
+            "time": 726.2425050485131,
+            "bugs": 0.2713132377351049
+        },
+        "line_count": 72,
+        "fta_score": 48.11748234232012,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/Mailer.ts",
+        "cyclo": 6,
+        "halstead": {
+            "uniq_operators": 19,
+            "uniq_operands": 58,
+            "total_operators": 135,
+            "total_operands": 142,
+            "program_length": 277,
+            "vocabulary_size": 77,
+            "volume": 1735.8998717724876,
+            "difficulty": 22.03448275862069,
+            "effort": 38249.65579526275,
+            "time": 2124.980877514597,
+            "bugs": 0.5786332905908292
+        },
+        "line_count": 63,
+        "fta_score": 47.741965995615736,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/utils/Security.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 68,
+            "total_operators": 106,
+            "total_operands": 137,
+            "program_length": 243,
+            "vocabulary_size": 81,
+            "volume": 1540.5835507009638,
+            "difficulty": 12.088235294117647,
+            "effort": 18622.936451120473,
+            "time": 1034.6075806178042,
+            "bugs": 0.5135278502336545
+        },
+        "line_count": 48,
+        "fta_score": 47.481354952839965,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/main.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 18,
+            "uniq_operands": 52,
+            "total_operators": 119,
+            "total_operands": 108,
+            "program_length": 227,
+            "vocabulary_size": 70,
+            "volume": 1391.3472448465075,
+            "difficulty": 18.692307692307693,
+            "effort": 26007.49080751549,
+            "time": 1444.8606004175272,
+            "bugs": 0.4637824149488358
+        },
+        "line_count": 50,
+        "fta_score": 47.424253178330105,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/main.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 16,
+            "uniq_operands": 52,
+            "total_operators": 109,
+            "total_operands": 107,
+            "program_length": 216,
+            "vocabulary_size": 68,
+            "volume": 1314.8919737100732,
+            "difficulty": 16.46153846153846,
+            "effort": 21645.14479799659,
+            "time": 1202.5080443331437,
+            "bugs": 0.4382973245700244
+        },
+        "line_count": 49,
+        "fta_score": 47.144709874070024,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/Address.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 16,
+            "uniq_operands": 43,
+            "total_operators": 124,
+            "total_operands": 121,
+            "program_length": 245,
+            "vocabulary_size": 59,
+            "volume": 1441.2475470936513,
+            "difficulty": 22.511627906976745,
+            "effort": 32444.82850201522,
+            "time": 1802.490472334179,
+            "bugs": 0.4804158490312171
+        },
+        "line_count": 48,
+        "fta_score": 46.51764682653182,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/services/UserService.ts",
+        "cyclo": 13,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 37,
+            "total_operators": 90,
+            "total_operands": 131,
+            "program_length": 221,
+            "vocabulary_size": 49,
+            "volume": 1240.850875549461,
+            "difficulty": 21.243243243243242,
+            "effort": 26359.69697788855,
+            "time": 1464.4276098826972,
+            "bugs": 0.413616958516487
+        },
+        "line_count": 80,
+        "fta_score": 46.17361960758642,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/coverage/lcov-report/block-navigation.js",
+        "cyclo": 13,
+        "halstead": {
+            "uniq_operators": 19,
+            "uniq_operands": 55,
+            "total_operators": 103,
+            "total_operands": 115,
+            "program_length": 218,
+            "vocabulary_size": 74,
+            "volume": 1353.6608337071111,
+            "difficulty": 18.818181818181817,
+            "effort": 25473.435688851998,
+            "time": 1415.1908716028888,
+            "bugs": 0.45122027790237035
+        },
+        "line_count": 66,
+        "fta_score": 45.60475894887157,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/emailbridge.tsx",
+        "cyclo": 10,
+        "halstead": {
+            "uniq_operators": 19,
+            "uniq_operands": 54,
+            "total_operators": 85,
+            "total_operands": 93,
+            "program_length": 178,
+            "vocabulary_size": 73,
+            "volume": 1101.7887714806432,
+            "difficulty": 15.5,
+            "effort": 17077.72595794997,
+            "time": 948.7625532194428,
+            "bugs": 0.367262923826881
+        },
+        "line_count": 62,
+        "fta_score": 45.58984825654107,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/utils/reactQuery.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 15,
+            "uniq_operands": 43,
+            "total_operators": 88,
+            "total_operands": 103,
+            "program_length": 191,
+            "vocabulary_size": 58,
+            "volume": 1118.8743700693663,
+            "difficulty": 16.767441860465116,
+            "effort": 18760.66094930263,
+            "time": 1042.2589416279238,
+            "bugs": 0.3729581233564554
+        },
+        "line_count": 61,
+        "fta_score": 45.04555621168851,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/BudgetServiceController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 14,
+            "uniq_operands": 50,
+            "total_operators": 191,
+            "total_operands": 203,
+            "program_length": 394,
+            "vocabulary_size": 64,
+            "volume": 2364.0,
+            "difficulty": 28.42,
+            "effort": 67184.88,
+            "time": 3732.493333333334,
+            "bugs": 0.788
+        },
+        "line_count": 56,
+        "fta_score": 44.534696076560266,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/BudgetServiceService.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 34,
+            "total_operators": 77,
+            "total_operands": 110,
+            "program_length": 187,
+            "vocabulary_size": 44,
+            "volume": 1020.9137126851746,
+            "difficulty": 16.176470588235293,
+            "effort": 16514.78064637782,
+            "time": 917.4878136876567,
+            "bugs": 0.34030457089505817
+        },
+        "line_count": 63,
+        "fta_score": 44.51111668506208,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/ServiceService.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 33,
+            "total_operators": 77,
+            "total_operands": 108,
+            "program_length": 185,
+            "vocabulary_size": 43,
+            "volume": 1003.8589796198881,
+            "difficulty": 16.363636363636363,
+            "effort": 16426.783302870896,
+            "time": 912.5990723817164,
+            "bugs": 0.33461965987329606
+        },
+        "line_count": 63,
+        "fta_score": 44.441207038998655,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/CustomerService.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 33,
+            "total_operators": 77,
+            "total_operands": 108,
+            "program_length": 185,
+            "vocabulary_size": 43,
+            "volume": 1003.8589796198881,
+            "difficulty": 16.363636363636363,
+            "effort": 16426.783302870896,
+            "time": 912.5990723817164,
+            "bugs": 0.33461965987329606
+        },
+        "line_count": 63,
+        "fta_score": 44.441207038998655,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/BudgetService.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 33,
+            "total_operators": 77,
+            "total_operands": 108,
+            "program_length": 185,
+            "vocabulary_size": 43,
+            "volume": 1003.8589796198881,
+            "difficulty": 16.363636363636363,
+            "effort": 16426.783302870896,
+            "time": 912.5990723817164,
+            "bugs": 0.33461965987329606
+        },
+        "line_count": 63,
+        "fta_score": 44.441207038998655,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/CompanyService.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 32,
+            "total_operators": 77,
+            "total_operands": 97,
+            "program_length": 174,
+            "vocabulary_size": 42,
+            "volume": 938.2632315635044,
+            "difficulty": 15.15625,
+            "effort": 14220.552103384363,
+            "time": 790.0306724102425,
+            "bugs": 0.31275441052116815
+        },
+        "line_count": 63,
+        "fta_score": 44.36965231003198,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/CustomerController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 48,
+            "total_operators": 187,
+            "total_operands": 200,
+            "program_length": 387,
+            "vocabulary_size": 61,
+            "volume": 2295.1953496368374,
+            "difficulty": 25.0,
+            "effort": 57379.88374092094,
+            "time": 3187.771318940052,
+            "bugs": 0.7650651165456125
+        },
+        "line_count": 54,
+        "fta_score": 44.04416755297124,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/BudgetController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 46,
+            "total_operators": 186,
+            "total_operands": 197,
+            "program_length": 383,
+            "vocabulary_size": 59,
+            "volume": 2253.052287905585,
+            "difficulty": 25.695652173913043,
+            "effort": 57893.64791966091,
+            "time": 3216.313773314495,
+            "bugs": 0.7510174293018618
+        },
+        "line_count": 54,
+        "fta_score": 43.94279364338558,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/ServiceController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 46,
+            "total_operators": 186,
+            "total_operands": 197,
+            "program_length": 383,
+            "vocabulary_size": 59,
+            "volume": 2253.052287905585,
+            "difficulty": 25.695652173913043,
+            "effort": 57893.64791966091,
+            "time": 3216.313773314495,
+            "bugs": 0.7510174293018618
+        },
+        "line_count": 54,
+        "fta_score": 43.94279364338558,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/hooks/useApi.tsx",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 16,
+            "uniq_operands": 37,
+            "total_operators": 78,
+            "total_operands": 95,
+            "program_length": 173,
+            "vocabulary_size": 53,
+            "volume": 990.9302386394334,
+            "difficulty": 20.54054054054054,
+            "effort": 20354.242739620793,
+            "time": 1130.7912633122662,
+            "bugs": 0.3303100795464778
+        },
+        "line_count": 43,
+        "fta_score": 43.869954912519034,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/Producer.ts",
+        "cyclo": 6,
+        "halstead": {
+            "uniq_operators": 16,
+            "uniq_operands": 43,
+            "total_operators": 85,
+            "total_operands": 96,
+            "program_length": 181,
+            "vocabulary_size": 59,
+            "volume": 1064.7583919344934,
+            "difficulty": 17.86046511627907,
+            "effort": 19017.080116411416,
+            "time": 1056.5044509117454,
+            "bugs": 0.3549194639781645
+        },
+        "line_count": 45,
+        "fta_score": 43.74463048766657,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/controllers/UserController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 43,
+            "total_operators": 181,
+            "total_operands": 191,
+            "program_length": 372,
+            "vocabulary_size": 56,
+            "volume": 2160.3360310054286,
+            "difficulty": 26.651162790697676,
+            "effort": 57575.46724493538,
+            "time": 3198.637069163077,
+            "bugs": 0.7201120103351428
+        },
+        "line_count": 53,
+        "fta_score": 43.607016759593854,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/CompanyController.ts",
+        "cyclo": 9,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 40,
+            "total_operators": 166,
+            "total_operands": 171,
+            "program_length": 337,
+            "vocabulary_size": 53,
+            "volume": 1930.309193187798,
+            "difficulty": 25.65,
+            "effort": 49512.43080526702,
+            "time": 2750.690600292612,
+            "bugs": 0.643436397729266
+        },
+        "line_count": 53,
+        "fta_score": 43.439583519037285,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/MailerService.ts",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 34,
+            "total_operators": 61,
+            "total_operands": 73,
+            "program_length": 134,
+            "vocabulary_size": 47,
+            "volume": 744.3149061248034,
+            "difficulty": 12.882352941176471,
+            "effort": 9588.52732007835,
+            "time": 532.695962226575,
+            "bugs": 0.24810496870826781
+        },
+        "line_count": 49,
+        "fta_score": 43.21253416778736,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/APIResponse.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 19,
+            "uniq_operands": 26,
+            "total_operators": 54,
+            "total_operands": 76,
+            "program_length": 130,
+            "vocabulary_size": 45,
+            "volume": 713.9409025228578,
+            "difficulty": 26.307692307692307,
+            "effort": 18782.137589447488,
+            "time": 1043.4520883026382,
+            "bugs": 0.2379803008409526
+        },
+        "line_count": 41,
+        "fta_score": 42.92115526498026,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/Database.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 18,
+            "uniq_operands": 33,
+            "total_operators": 67,
+            "total_operands": 68,
+            "program_length": 135,
+            "vocabulary_size": 51,
+            "volume": 765.7774211661518,
+            "difficulty": 18.545454545454547,
+            "effort": 14201.690356172272,
+            "time": 788.9827975651262,
+            "bugs": 0.2552591403887173
+        },
+        "line_count": 34,
+        "fta_score": 42.80763671187143,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/services/AddressService.ts",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 27,
+            "total_operators": 59,
+            "total_operands": 73,
+            "program_length": 132,
+            "vocabulary_size": 37,
+            "volume": 687.6478442630214,
+            "difficulty": 13.518518518518519,
+            "effort": 9295.980116888994,
+            "time": 516.4433398271663,
+            "bugs": 0.2292159480876738
+        },
+        "line_count": 47,
+        "fta_score": 42.09025810648236,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/controllers/GatewayController.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 43,
+            "total_operators": 92,
+            "total_operands": 93,
+            "program_length": 185,
+            "vocabulary_size": 56,
+            "volume": 1074.3606605806567,
+            "difficulty": 12.976744186046512,
+            "effort": 13941.703455907127,
+            "time": 774.5390808837293,
+            "bugs": 0.3581202201935522
+        },
+        "line_count": 30,
+        "fta_score": 41.90628734684299,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/controllers/ProducerController.ts",
+        "cyclo": 3,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 33,
+            "total_operators": 60,
+            "total_operands": 63,
+            "program_length": 123,
+            "vocabulary_size": 43,
+            "volume": 667.430564828358,
+            "difficulty": 9.545454545454545,
+            "effort": 6370.928118816144,
+            "time": 353.9404510453413,
+            "bugs": 0.222476854942786
+        },
+        "line_count": 25,
+        "fta_score": 41.44471003338061,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/AddressController.ts",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 36,
+            "total_operators": 117,
+            "total_operands": 121,
+            "program_length": 238,
+            "vocabulary_size": 49,
+            "volume": 1336.3009428994196,
+            "difficulty": 20.166666666666668,
+            "effort": 26948.735681804963,
+            "time": 1497.151982322498,
+            "bugs": 0.44543364763313986
+        },
+        "line_count": 37,
+        "fta_score": 40.6780776629495,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/utils/Utils.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 18,
+            "uniq_operands": 26,
+            "total_operators": 49,
+            "total_operands": 55,
+            "program_length": 104,
+            "vocabulary_size": 44,
+            "volume": 567.7808883382789,
+            "difficulty": 19.03846153846154,
+            "effort": 10809.67460490185,
+            "time": 600.5374780501028,
+            "bugs": 0.18926029611275966
+        },
+        "line_count": 31,
+        "fta_score": 40.204118061248636,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/Utils.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 18,
+            "uniq_operands": 26,
+            "total_operators": 49,
+            "total_operands": 55,
+            "program_length": 104,
+            "vocabulary_size": 44,
+            "volume": 567.7808883382789,
+            "difficulty": 19.03846153846154,
+            "effort": 10809.67460490185,
+            "time": 600.5374780501028,
+            "bugs": 0.18926029611275966
+        },
+        "line_count": 31,
+        "fta_score": 40.204118061248636,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/gateway.ts",
+        "cyclo": 11,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 35,
+            "total_operators": 58,
+            "total_operands": 81,
+            "program_length": 139,
+            "vocabulary_size": 47,
+            "volume": 772.0878503831916,
+            "difficulty": 13.885714285714286,
+            "effort": 10720.991293892319,
+            "time": 595.6106274384622,
+            "bugs": 0.2573626167943972
+        },
+        "line_count": 41,
+        "fta_score": 40.08318982815106,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/BudgetServices.tsx",
+        "cyclo": 3,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 20,
+            "total_operators": 36,
+            "total_operands": 40,
+            "program_length": 76,
+            "vocabulary_size": 33,
+            "volume": 383.37395307124245,
+            "difficulty": 12.0,
+            "effort": 4600.48743685491,
+            "time": 255.58263538082832,
+            "bugs": 0.12779131769041416
+        },
+        "line_count": 22,
+        "fta_score": 39.428744009730934,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/controllers/MessageController.ts",
+        "cyclo": 4,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 34,
+            "total_operators": 66,
+            "total_operands": 69,
+            "program_length": 135,
+            "vocabulary_size": 46,
+            "volume": 745.6808640676968,
+            "difficulty": 12.176470588235293,
+            "effort": 9079.76110953019,
+            "time": 504.43117275167725,
+            "bugs": 0.2485602880225656
+        },
+        "line_count": 23,
+        "fta_score": 38.79091611002769,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/controllers/MailerController.ts",
+        "cyclo": 5,
+        "halstead": {
+            "uniq_operators": 9,
+            "uniq_operands": 26,
+            "total_operators": 75,
+            "total_operands": 83,
+            "program_length": 158,
+            "vocabulary_size": 35,
+            "volume": 810.4267166773047,
+            "difficulty": 12.76923076923077,
+            "effort": 10348.525766802508,
+            "time": 574.9180981556949,
+            "bugs": 0.27014223889243494
+        },
+        "line_count": 28,
+        "fta_score": 38.54396845630647,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/auth/AuthGuard.tsx",
+        "cyclo": 8,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 24,
+            "total_operators": 49,
+            "total_operands": 46,
+            "program_length": 95,
+            "vocabulary_size": 34,
+            "volume": 483.3089699187822,
+            "difficulty": 9.583333333333334,
+            "effort": 4631.710961721663,
+            "time": 257.3172756512035,
+            "bugs": 0.1611029899729274
+        },
+        "line_count": 33,
+        "fta_score": 37.98858915833954,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/controllers/AuthController.ts",
+        "cyclo": 3,
+        "halstead": {
+            "uniq_operators": 11,
+            "uniq_operands": 24,
+            "total_operators": 44,
+            "total_operands": 43,
+            "program_length": 87,
+            "vocabulary_size": 35,
+            "volume": 446.24762247421205,
+            "difficulty": 8.958333333333334,
+            "effort": 3997.634951331483,
+            "time": 222.09083062952683,
+            "bugs": 0.14874920749140402
+        },
+        "line_count": 17,
+        "fta_score": 37.165082623429896,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/hooks/useLocalStorage.tsx",
+        "cyclo": 7,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 21,
+            "total_operators": 42,
+            "total_operands": 45,
+            "program_length": 87,
+            "vocabulary_size": 34,
+            "volume": 442.6092671887795,
+            "difficulty": 12.857142857142858,
+            "effort": 5690.690578141451,
+            "time": 316.14947656341394,
+            "bugs": 0.14753642239625983
+        },
+        "line_count": 25,
+        "fta_score": 35.85265506403556,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/utils/Security.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 73,
+            "total_operators": 135,
+            "total_operands": 184,
+            "program_length": 319,
+            "vocabulary_size": 85,
+            "volume": 2044.5957086279268,
+            "difficulty": 15.123287671232877,
+            "effort": 30921.00907294837,
+            "time": 1717.8338373860206,
+            "bugs": 0.6815319028759756
+        },
+        "line_count": 62,
+        "fta_score": 13.64431961037991,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/LoginPage.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 61,
+            "total_operators": 56,
+            "total_operands": 102,
+            "program_length": 158,
+            "vocabulary_size": 71,
+            "volume": 971.6600448817397,
+            "difficulty": 8.360655737704919,
+            "effort": 8123.715129339136,
+            "time": 451.31750718550757,
+            "bugs": 0.3238866816272466
+        },
+        "line_count": 62,
+        "fta_score": 13.097038222581773,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/companies/index.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 15,
+            "uniq_operands": 52,
+            "total_operators": 66,
+            "total_operands": 79,
+            "program_length": 145,
+            "vocabulary_size": 67,
+            "volume": 879.582932616377,
+            "difficulty": 10.634615384615385,
+            "effort": 9354.02618724724,
+            "time": 519.6681215137355,
+            "bugs": 0.29319431087212566
+        },
+        "line_count": 43,
+        "fta_score": 13.05520562621814,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/ServiceTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 54,
+            "total_operators": 39,
+            "total_operands": 132,
+            "program_length": 171,
+            "vocabulary_size": 62,
+            "volume": 1018.1675690761556,
+            "difficulty": 9.777777777777779,
+            "effort": 9955.416230966855,
+            "time": 553.0786794981586,
+            "bugs": 0.33938918969205184
+        },
+        "line_count": 80,
+        "fta_score": 12.684853100721924,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/BudgetCard.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 48,
+            "total_operators": 44,
+            "total_operands": 88,
+            "program_length": 132,
+            "vocabulary_size": 61,
+            "volume": 782.857328558301,
+            "difficulty": 11.0,
+            "effort": 8611.43061414131,
+            "time": 478.41281189673947,
+            "bugs": 0.260952442852767
+        },
+        "line_count": 49,
+        "fta_score": 12.635405902749241,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/budgets/[budgetId]/index.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 45,
+            "total_operators": 52,
+            "total_operands": 100,
+            "program_length": 152,
+            "vocabulary_size": 58,
+            "volume": 890.4131112593909,
+            "difficulty": 13.333333333333334,
+            "effort": 11872.17481679188,
+            "time": 659.5652675995489,
+            "bugs": 0.29680437041979696
+        },
+        "line_count": 59,
+        "fta_score": 12.616551844936467,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/lambda/script.js",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 14,
+            "uniq_operands": 42,
+            "total_operators": 74,
+            "total_operands": 77,
+            "program_length": 151,
+            "vocabulary_size": 56,
+            "volume": 876.9105932306982,
+            "difficulty": 12.833333333333334,
+            "effort": 11253.685946460628,
+            "time": 625.2047748033682,
+            "bugs": 0.2923035310768994
+        },
+        "line_count": 45,
+        "fta_score": 12.375338474750151,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/api/companies.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 41,
+            "total_operators": 102,
+            "total_operands": 99,
+            "program_length": 201,
+            "vocabulary_size": 51,
+            "volume": 1140.1574937362705,
+            "difficulty": 12.073170731707316,
+            "effort": 13765.316082913509,
+            "time": 764.7397823840838,
+            "bugs": 0.38005249791209017
+        },
+        "line_count": 61,
+        "fta_score": 12.225434672611996,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/MainLayout.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 39,
+            "total_operators": 62,
+            "total_operands": 80,
+            "program_length": 142,
+            "vocabulary_size": 51,
+            "volume": 805.4843985599523,
+            "difficulty": 12.307692307692308,
+            "effort": 9913.65413612249,
+            "time": 550.7585631179161,
+            "bugs": 0.2684947995199841
+        },
+        "line_count": 45,
+        "fta_score": 12.225434672611996,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/_app.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 14,
+            "uniq_operands": 35,
+            "total_operators": 45,
+            "total_operands": 64,
+            "program_length": 109,
+            "vocabulary_size": 49,
+            "volume": 612.0033730085577,
+            "difficulty": 12.8,
+            "effort": 7833.643174509539,
+            "time": 435.20239858386327,
+            "bugs": 0.2040011243361859
+        },
+        "line_count": 40,
+        "fta_score": 12.103781023494307,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/CompanyCard.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 39,
+            "total_operators": 47,
+            "total_operands": 73,
+            "program_length": 120,
+            "vocabulary_size": 51,
+            "volume": 680.6910410365795,
+            "difficulty": 11.23076923076923,
+            "effort": 7644.683999333892,
+            "time": 424.70466662966066,
+            "bugs": 0.2268970136788598
+        },
+        "line_count": 42,
+        "fta_score": 12.09093174863537,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/costumers/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 39,
+            "total_operators": 48,
+            "total_operands": 56,
+            "program_length": 104,
+            "vocabulary_size": 51,
+            "volume": 589.9322355650355,
+            "difficulty": 8.615384615384615,
+            "effort": 5082.493106406459,
+            "time": 282.3607281336922,
+            "bugs": 0.1966440785216785
+        },
+        "line_count": 31,
+        "fta_score": 12.09093174863537,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/BudgetTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 42,
+            "total_operators": 38,
+            "total_operands": 114,
+            "program_length": 152,
+            "vocabulary_size": 50,
+            "volume": 857.8661408457581,
+            "difficulty": 10.857142857142858,
+            "effort": 9313.97524346823,
+            "time": 517.4430690815684,
+            "bugs": 0.28595538028191936
+        },
+        "line_count": 70,
+        "fta_score": 12.030713232880913,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/ServiceCard.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 34,
+            "total_operators": 23,
+            "total_operands": 52,
+            "program_length": 75,
+            "vocabulary_size": 44,
+            "volume": 409.4573713977973,
+            "difficulty": 7.647058823529412,
+            "effort": 3131.1446048066855,
+            "time": 173.95247804481585,
+            "bugs": 0.13648579046593243
+        },
+        "line_count": 31,
+        "fta_score": 11.6419801733187,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/budgets/budgetId/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 35,
+            "total_operators": 27,
+            "total_operands": 143,
+            "program_length": 170,
+            "vocabulary_size": 43,
+            "volume": 922.4650082993567,
+            "difficulty": 16.34285714285714,
+            "effort": 15075.713849920914,
+            "time": 837.5396583289397,
+            "bugs": 0.30748833609978554
+        },
+        "line_count": 68,
+        "fta_score": 11.572070527255264,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/BudgetServiceTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 11,
+            "uniq_operands": 29,
+            "total_operators": 56,
+            "total_operands": 114,
+            "program_length": 170,
+            "vocabulary_size": 40,
+            "volume": 904.7277761308517,
+            "difficulty": 19.655172413793103,
+            "effort": 17782.580427399498,
+            "time": 987.9211348555277,
+            "bugs": 0.30157592537695055
+        },
+        "line_count": 68,
+        "fta_score": 11.352148047597936,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/styles/theme.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 6,
+            "uniq_operands": 33,
+            "total_operators": 18,
+            "total_operands": 36,
+            "program_length": 54,
+            "vocabulary_size": 39,
+            "volume": 285.41171981856144,
+            "difficulty": 3.272727272727273,
+            "effort": 934.0747194062011,
+            "time": 51.89303996701117,
+            "bugs": 0.09513723993952047
+        },
+        "line_count": 36,
+        "fta_score": 11.275158222148633,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/_document.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 13,
+            "uniq_operands": 25,
+            "total_operators": 25,
+            "total_operands": 46,
+            "program_length": 71,
+            "vocabulary_size": 38,
+            "volume": 372.60285345449455,
+            "difficulty": 11.04,
+            "effort": 4113.53550213762,
+            "time": 228.52975011875665,
+            "bugs": 0.12420095115149818
+        },
+        "line_count": 40,
+        "fta_score": 11.196168438934038,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/utils/Postgres.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 15,
+            "uniq_operands": 20,
+            "total_operators": 44,
+            "total_operands": 44,
+            "program_length": 88,
+            "vocabulary_size": 35,
+            "volume": 451.37690549115706,
+            "difficulty": 15.4,
+            "effort": 6951.204344563819,
+            "time": 386.1780191424344,
+            "bugs": 0.15045896849705234
+        },
+        "line_count": 21,
+        "fta_score": 11.080590596342091,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/utils/Database.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 15,
+            "uniq_operands": 20,
+            "total_operators": 44,
+            "total_operands": 44,
+            "program_length": 88,
+            "vocabulary_size": 35,
+            "volume": 451.37690549115706,
+            "difficulty": 15.4,
+            "effort": 6951.204344563819,
+            "time": 386.1780191424344,
+            "bugs": 0.15045896849705234
+        },
+        "line_count": 21,
+        "fta_score": 11.080590596342091,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/budgets/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 24,
+            "total_operators": 33,
+            "total_operands": 37,
+            "program_length": 70,
+            "vocabulary_size": 36,
+            "volume": 361.89475010096186,
+            "difficulty": 9.25,
+            "effort": 3347.526438433897,
+            "time": 185.9736910241054,
+            "bugs": 0.12063158336698729
+        },
+        "line_count": 23,
+        "fta_score": 11.031753497059498,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/CustomerTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 28,
+            "total_operators": 33,
+            "total_operands": 91,
+            "program_length": 124,
+            "vocabulary_size": 36,
+            "volume": 641.0707001788467,
+            "difficulty": 13.0,
+            "effort": 8333.919102325006,
+            "time": 462.99550568472256,
+            "bugs": 0.21369023339294888
+        },
+        "line_count": 56,
+        "fta_score": 11.031753497059498,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/services/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 12,
+            "uniq_operands": 23,
+            "total_operators": 31,
+            "total_operands": 36,
+            "program_length": 67,
+            "vocabulary_size": 35,
+            "volume": 343.66196213531276,
+            "difficulty": 9.391304347826088,
+            "effort": 3227.434079183807,
+            "time": 179.3018932879893,
+            "bugs": 0.11455398737843758
+        },
+        "line_count": 22,
+        "fta_score": 10.94608767236548,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/BudgetServiceCard.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 25,
+            "total_operators": 22,
+            "total_operands": 43,
+            "program_length": 65,
+            "vocabulary_size": 35,
+            "volume": 333.4033961014228,
+            "difficulty": 8.6,
+            "effort": 2867.269206472236,
+            "time": 159.292733692902,
+            "bugs": 0.11113446536714093
+        },
+        "line_count": 27,
+        "fta_score": 10.94608767236548,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/MiscTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 1,
+            "uniq_operands": 33,
+            "total_operators": 6,
+            "total_operands": 44,
+            "program_length": 50,
+            "vocabulary_size": 34,
+            "volume": 254.37314206251696,
+            "difficulty": 0.0,
+            "effort": 0.0,
+            "time": 0.0,
+            "bugs": 0.08479104735417232
+        },
+        "line_count": 38,
+        "fta_score": 10.857938437429254,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/hooks/useModal.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 9,
+            "uniq_operands": 22,
+            "total_operators": 39,
+            "total_operands": 46,
+            "program_length": 85,
+            "vocabulary_size": 31,
+            "volume": 421.1066863828844,
+            "difficulty": 8.363636363636363,
+            "effort": 3521.9831952023055,
+            "time": 195.66573306679476,
+            "bugs": 0.14036889546096146
+        },
+        "line_count": 28,
+        "fta_score": 10.711540037030872,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/Heading.tsx",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 21,
+            "total_operators": 23,
+            "total_operands": 40,
+            "program_length": 63,
+            "vocabulary_size": 31,
+            "volume": 312.11436755437313,
+            "difficulty": 9.523809523809524,
+            "effort": 2972.517786232125,
+            "time": 165.13987701289585,
+            "bugs": 0.10403812251812437
+        },
+        "line_count": 25,
+        "fta_score": 10.711540037030872,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/CompanyTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 24,
+            "total_operators": 31,
+            "total_operands": 80,
+            "program_length": 111,
+            "vocabulary_size": 32,
+            "volume": 555.0,
+            "difficulty": 13.333333333333334,
+            "effort": 7400.0,
+            "time": 411.1111111111111,
+            "bugs": 0.185
+        },
+        "line_count": 53,
+        "fta_score": 10.673582862314959,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/routes.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 4,
+            "uniq_operands": 26,
+            "total_operators": 15,
+            "total_operands": 26,
+            "program_length": 41,
+            "vocabulary_size": 30,
+            "volume": 201.18251441994926,
+            "difficulty": 2.0,
+            "effort": 402.3650288398985,
+            "time": 22.353612713327696,
+            "bugs": 0.06706083813998309
+        },
+        "line_count": 13,
+        "fta_score": 10.611828295113,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/cypress/integration/textinput.spec.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 7,
+            "uniq_operands": 24,
+            "total_operators": 35,
+            "total_operands": 38,
+            "program_length": 73,
+            "vocabulary_size": 31,
+            "volume": 361.65633065824187,
+            "difficulty": 4.75,
+            "effort": 1717.8675706266488,
+            "time": 95.43708725703604,
+            "bugs": 0.12055211021941396
+        },
+        "line_count": 13,
+        "fta_score": 10.577037113054246,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/login/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 19,
+            "total_operators": 24,
+            "total_operands": 25,
+            "program_length": 49,
+            "vocabulary_size": 29,
+            "volume": 238.041068761251,
+            "difficulty": 6.578947368421052,
+            "effort": 1566.0596629029671,
+            "time": 87.00331460572039,
+            "bugs": 0.07934702292041701
+        },
+        "line_count": 14,
+        "fta_score": 10.374232933292205,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/cypress/e2e/companyform.cy.js",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 4,
+            "uniq_operands": 24,
+            "total_operators": 42,
+            "total_operands": 37,
+            "program_length": 79,
+            "vocabulary_size": 28,
+            "volume": 379.7810388425507,
+            "difficulty": 3.0833333333333335,
+            "effort": 1170.991536431198,
+            "time": 65.05508535728877,
+            "bugs": 0.12659367961418355
+        },
+        "line_count": 13,
+        "fta_score": 10.267522487082474,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/AddressTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 19,
+            "total_operators": 25,
+            "total_operands": 61,
+            "program_length": 86,
+            "vocabulary_size": 27,
+            "volume": 408.9203251860583,
+            "difficulty": 12.842105263157896,
+            "effort": 5251.397860284117,
+            "time": 291.74432557133986,
+            "bugs": 0.13630677506201944
+        },
+        "line_count": 41,
+        "fta_score": 10.15693082059795,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/CardWrapper.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 18,
+            "total_operators": 16,
+            "total_operands": 26,
+            "program_length": 42,
+            "vocabulary_size": 26,
+            "volume": 197.41846816192586,
+            "difficulty": 5.777777777777778,
+            "effort": 1140.6400382689048,
+            "time": 63.36889101493916,
+            "bugs": 0.06580615605397529
+        },
+        "line_count": 21,
+        "fta_score": 10.042164910942518,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/cypress/integration/navbar.spec.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 4,
+            "uniq_operands": 22,
+            "total_operators": 53,
+            "total_operands": 45,
+            "program_length": 98,
+            "vocabulary_size": 26,
+            "volume": 460.643092377827,
+            "difficulty": 4.090909090909091,
+            "effort": 1884.4490142729285,
+            "time": 104.69161190405158,
+            "bugs": 0.15354769745927566
+        },
+        "line_count": 18,
+        "fta_score": 10.042164910942518,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/api/auth.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 9,
+            "uniq_operands": 16,
+            "total_operators": 28,
+            "total_operands": 28,
+            "program_length": 56,
+            "vocabulary_size": 25,
+            "volume": 260.05594662738457,
+            "difficulty": 7.0,
+            "effort": 1820.391626391692,
+            "time": 101.13286813287178,
+            "bugs": 0.08668531554246152
+        },
+        "line_count": 19,
+        "fta_score": 9.922897245213235,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/test/mocks/UserMocks.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 15,
+            "total_operators": 69,
+            "total_operands": 54,
+            "program_length": 123,
+            "vocabulary_size": 25,
+            "volume": 571.1943113422911,
+            "difficulty": 18.0,
+            "effort": 10281.49760416124,
+            "time": 571.1943113422911,
+            "bugs": 0.19039810378076372
+        },
+        "line_count": 38,
+        "fta_score": 9.922897245213235,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/CostumerCard.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 7,
+            "uniq_operands": 17,
+            "total_operators": 15,
+            "total_operands": 36,
+            "program_length": 51,
+            "vocabulary_size": 24,
+            "volume": 233.83308753677895,
+            "difficulty": 6.352941176470588,
+            "effort": 1485.5278502336544,
+            "time": 82.52932501298079,
+            "bugs": 0.07794436251225965
+        },
+        "line_count": 24,
+        "fta_score": 9.79876018585341,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/Exception.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 5,
+            "uniq_operands": 18,
+            "total_operators": 31,
+            "total_operands": 52,
+            "program_length": 83,
+            "vocabulary_size": 23,
+            "volume": 375.45564235273207,
+            "difficulty": 5.777777777777778,
+            "effort": 2169.2992669268965,
+            "time": 120.51662594038314,
+            "bugs": 0.12515188078424402
+        },
+        "line_count": 45,
+        "fta_score": 9.669339136158811,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/utils/Exception.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 5,
+            "uniq_operands": 18,
+            "total_operators": 31,
+            "total_operands": 52,
+            "program_length": 83,
+            "vocabulary_size": 23,
+            "volume": 375.45564235273207,
+            "difficulty": 5.777777777777778,
+            "effort": 2169.2992669268965,
+            "time": 120.51662594038314,
+            "bugs": 0.12515188078424402
+        },
+        "line_count": 45,
+        "fta_score": 9.669339136158811,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/utils/Exception.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 5,
+            "uniq_operands": 18,
+            "total_operators": 31,
+            "total_operands": 52,
+            "program_length": 83,
+            "vocabulary_size": 23,
+            "volume": 375.45564235273207,
+            "difficulty": 5.777777777777778,
+            "effort": 2169.2992669268965,
+            "time": 120.51662594038314,
+            "bugs": 0.12515188078424402
+        },
+        "line_count": 45,
+        "fta_score": 9.669339136158811,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/types/MiscTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 1,
+            "uniq_operands": 22,
+            "total_operators": 2,
+            "total_operands": 24,
+            "program_length": 26,
+            "vocabulary_size": 23,
+            "volume": 117.61261085748234,
+            "difficulty": 0.0,
+            "effort": 0.0,
+            "time": 0.0,
+            "bugs": 0.03920420361916078
+        },
+        "line_count": 18,
+        "fta_score": 9.669339136158811,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/modules/utils/UUID.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 12,
+            "total_operators": 20,
+            "total_operands": 22,
+            "program_length": 42,
+            "vocabulary_size": 22,
+            "volume": 187.29612798276648,
+            "difficulty": 9.166666666666666,
+            "effort": 1716.8811731753592,
+            "time": 95.38228739863106,
+            "bugs": 0.06243204266092216
+        },
+        "line_count": 17,
+        "fta_score": 9.668667109627634,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/modules/utils/UUID.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 12,
+            "total_operators": 20,
+            "total_operands": 22,
+            "program_length": 42,
+            "vocabulary_size": 22,
+            "volume": 187.29612798276648,
+            "difficulty": 9.166666666666666,
+            "effort": 1716.8811731753592,
+            "time": 95.38228739863106,
+            "bugs": 0.06243204266092216
+        },
+        "line_count": 17,
+        "fta_score": 9.668667109627634,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/modules/utils/UUID.ts",
+        "cyclo": 2,
+        "halstead": {
+            "uniq_operators": 10,
+            "uniq_operands": 12,
+            "total_operators": 20,
+            "total_operands": 22,
+            "program_length": 42,
+            "vocabulary_size": 22,
+            "volume": 187.29612798276648,
+            "difficulty": 9.166666666666666,
+            "effort": 1716.8811731753592,
+            "time": 95.38228739863106,
+            "bugs": 0.06243204266092216
+        },
+        "line_count": 17,
+        "fta_score": 9.668667109627634,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/MailServicesTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 5,
+            "uniq_operands": 15,
+            "total_operators": 13,
+            "total_operands": 29,
+            "program_length": 42,
+            "vocabulary_size": 20,
+            "volume": 181.52097998526924,
+            "difficulty": 3.8666666666666667,
+            "effort": 701.8811226097077,
+            "time": 38.99339570053932,
+            "bugs": 0.060506993328423075
+        },
+        "line_count": 30,
+        "fta_score": 9.244332059930272,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/api/budgets.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 10,
+            "total_operators": 24,
+            "total_operands": 19,
+            "program_length": 43,
+            "vocabulary_size": 18,
+            "volume": 179.30677506201943,
+            "difficulty": 7.6,
+            "effort": 1362.7314904713476,
+            "time": 75.70730502618598,
+            "bugs": 0.059768925020673144
+        },
+        "line_count": 12,
+        "fta_score": 8.923937509391834,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/components/SubHeading.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 8,
+            "uniq_operands": 10,
+            "total_operators": 12,
+            "total_operands": 16,
+            "program_length": 28,
+            "vocabulary_size": 18,
+            "volume": 116.75790004038474,
+            "difficulty": 6.4,
+            "effort": 747.2505602584624,
+            "time": 41.51392001435902,
+            "bugs": 0.03891930001346158
+        },
+        "line_count": 13,
+        "fta_score": 8.923937509391834,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/pages/index.tsx",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 7,
+            "uniq_operands": 10,
+            "total_operators": 24,
+            "total_operands": 14,
+            "program_length": 38,
+            "vocabulary_size": 17,
+            "volume": 155.32358796751288,
+            "difficulty": 4.2,
+            "effort": 652.3590694635541,
+            "time": 36.242170525753004,
+            "bugs": 0.051774529322504294
+        },
+        "line_count": 14,
+        "fta_score": 8.750122449761577,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/types/MessageTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 3,
+            "uniq_operands": 12,
+            "total_operators": 5,
+            "total_operands": 23,
+            "program_length": 28,
+            "vocabulary_size": 15,
+            "volume": 109.39293667703852,
+            "difficulty": 1.9166666666666667,
+            "effort": 209.66979529765717,
+            "time": 11.648321960980955,
+            "bugs": 0.03646431222567951
+        },
+        "line_count": 21,
+        "fta_score": 8.36950938346871,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/cypress.config.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 4,
+            "uniq_operands": 11,
+            "total_operators": 8,
+            "total_operands": 12,
+            "program_length": 20,
+            "vocabulary_size": 15,
+            "volume": 78.13781191217038,
+            "difficulty": 2.1818181818181817,
+            "effort": 170.48249871746262,
+            "time": 9.471249928747923,
+            "bugs": 0.026045937304056792
+        },
+        "line_count": 13,
+        "fta_score": 8.36950938346871,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/messenger/src/types/MessageTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 3,
+            "uniq_operands": 12,
+            "total_operators": 5,
+            "total_operands": 20,
+            "program_length": 25,
+            "vocabulary_size": 15,
+            "volume": 97.67226489021297,
+            "difficulty": 1.6666666666666667,
+            "effort": 162.78710815035495,
+            "time": 9.043728230575276,
+            "bugs": 0.03255742163007099
+        },
+        "line_count": 21,
+        "fta_score": 8.36950938346871,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/types/AuthTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 3,
+            "uniq_operands": 10,
+            "total_operators": 7,
+            "total_operands": 18,
+            "program_length": 25,
+            "vocabulary_size": 13,
+            "volume": 92.5109929535273,
+            "difficulty": 1.8,
+            "effort": 166.51978731634915,
+            "time": 9.25109929535273,
+            "bugs": 0.030836997651175767
+        },
+        "line_count": 17,
+        "fta_score": 7.93434892327484,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/gateway/src/types/RequestTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 3,
+            "uniq_operands": 8,
+            "total_operators": 5,
+            "total_operands": 13,
+            "program_length": 18,
+            "vocabulary_size": 11,
+            "volume": 62.26976913547135,
+            "difficulty": 1.625,
+            "effort": 101.18837484514094,
+            "time": 5.621576380285608,
+            "bugs": 0.020756589711823783
+        },
+        "line_count": 12,
+        "fta_score": 7.426348197983344,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/front_web/oversight/cypress/support/component.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 5,
+            "uniq_operands": 6,
+            "total_operators": 11,
+            "total_operands": 11,
+            "program_length": 22,
+            "vocabulary_size": 11,
+            "volume": 76.10749561002054,
+            "difficulty": 3.6666666666666665,
+            "effort": 279.06081723674197,
+            "time": 15.503378735374554,
+            "bugs": 0.025369165203340177
+        },
+        "line_count": 12,
+        "fta_score": 7.426348197983344,
+        "assessment": "OK"
+    },
+    {
+        "file_name": "src/backend/src/types/MessageTypes.ts",
+        "cyclo": 1,
+        "halstead": {
+            "uniq_operators": 3,
+            "uniq_operands": 8,
+            "total_operators": 4,
+            "total_operands": 13,
+            "program_length": 17,
+            "vocabulary_size": 11,
+            "volume": 58.81033751683405,
+            "difficulty": 1.625,
+            "effort": 95.56679846485534,
+            "time": 5.309266581380852,
+            "bugs": 0.019603445838944685
+        },
+        "line_count": 14,
+        "fta_score": 7.426348197983344,
+        "assessment": "OK"
+    }
+]
