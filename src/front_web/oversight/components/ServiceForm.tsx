@@ -12,16 +12,23 @@ import {
 
 import { useForm } from "react-hook-form";
 import TextInput from "./TextInput";
-import { useCompanyMutations, useGetCompany } from "../api/companies";
+import {
+  useCompanyMutations,
+  useGetCompany,
+  useGetService,
+  useServiceMutations,
+} from "../api/companies";
 import { useRouter } from "next/router";
 import { joiResolver } from "../utils/resolver";
 import { companySchema } from "../utils/companyValidation";
 
 const defaultValues = {
-  email: "",
   name: "",
-  cnpj: "",
-  phone: "",
+  description: "",
+  mesureUnit: "hour",
+  value: 0,
+  type: "service",
+  errorMargin: 0,
 };
 
 const ServiceForm = () => {
@@ -33,7 +40,7 @@ const ServiceForm = () => {
   const companyData = data?.data.data ?? defaultValues;
 
   const ServiceForm = useForm({
-    defaultValues: companyData
+    defaultValues: companyData,
   });
   const { control, handleSubmit, reset } = ServiceForm;
 
@@ -41,32 +48,40 @@ const ServiceForm = () => {
     reset({ ...companyData });
   }, [companyData]);
 
-  const { addCompany, editCompany, isLoading } = useCompanyMutations();
+  const { addService, editService, isLoading } = useServiceMutations();
 
-  const submitCompany = (data) => {
-    isEdit ? editCompany(data, companyId) : addCompany(data);
+  const submitService = (data) => {
+    isEdit ? editService(data, serviceId) : addService(data);
   };
 
   return (
     <>
       <Box sx={{ display: "flex", gap: 4 }}>
-        <Heading title={isEdit ? "Editar" : "Nova" + " empresa"} />
+        <Heading title={(isEdit ? "Editar" : "Novo") + " serviço"} />
       </Box>
       <Card sx={{ mt: 4, width: "70%" }}>
         <CardContent>
-          <form onSubmit={handleSubmit(submitCompany)}>
+          <form onSubmit={handleSubmit(submitService)}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <TextInput name="name" label="Nome" control={control} />
               </Grid>
               <Grid item xs={12} md={6}>
-                <TextInput name="email" label="Email" control={control} />
+                <TextInput
+                  name="description"
+                  label="Descrição"
+                  control={control}
+                />
               </Grid>
               <Grid item xs={12} md={6}>
-                <TextInput name="phone" label="Telefone" control={control} />
+                <TextInput name="value" label="Valor" control={control} />
               </Grid>
               <Grid item xs={12} md={6}>
-                <TextInput name="cnpj" label="CNPJ" control={control} />
+                <TextInput
+                  name="errorMargin"
+                  label="Margem de erro"
+                  control={control}
+                />
               </Grid>
               <Grid
                 item

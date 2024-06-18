@@ -14,11 +14,11 @@ services:
       POSTGRES_HOST_AUTH_METHOD: trust
     restart: always
     ports:
-      - "5444:5444"
+      - "5432:5444"
     networks:
       - compose-network
     expose:
-      - 5444
+      - 5432
 
   rabbitmq:
     build:
@@ -45,7 +45,7 @@ services:
       - DB_USER=postgres
       - DB_PASS=toor
       - DB_HOST=database
-      - DB_PORT=5444
+      - DB_PORT=5432
       - DB_NAME=Oversight
       - KEY=jAhm*uq+c@esxi4+qimte&x
       - AUTH=qimte&x+c@esxi4+pQhm*uq
@@ -70,7 +70,7 @@ services:
       - DB_USER=postgres
       - DB_PASS=toor
       - DB_HOST=database
-      - DB_PORT=5444
+      - DB_PORT=5432
       - DB_NAME=Oversight
       - KEY=jAhm*uq+c@esxi4+qimte&x
       - AUTH=qimte&x+c@esxi4+pQhm*uq
@@ -99,7 +99,7 @@ services:
       - DB_USER=postgres
       - DB_PASS=toor
       - DB_HOST=database
-      - DB_PORT=5444
+      - DB_PORT=5432
       - DB_NAME=Oversight
       - KEY=jAhm*uq+c@esxi4+qimte&x
       - AUTH=qimte&x+c@esxi4+pQhm*uq

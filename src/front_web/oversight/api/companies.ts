@@ -154,7 +154,7 @@ export const useBudgetMutation = () => {
 
   const editBudget = (data, id) => {
     budgetByIdMutation.mutate(
-      { data, method: "PUT", params: { companyId: id } },
+      { data, method: "PUT", params: { budgetId: id } },
       {
         onSuccess: () => {
           toast.success("Orçamento salva com sucesso");
@@ -169,7 +169,7 @@ export const useBudgetMutation = () => {
 
   const deleteBudget = (id) => {
     budgetByIdMutation.mutate(
-      { method: "DELETE", params: { companyId: id } },
+      { method: "DELETE", params: { budgetId: id } },
       {
         onSuccess: () => {
           toast.success("Orçamento excluído com sucesso");

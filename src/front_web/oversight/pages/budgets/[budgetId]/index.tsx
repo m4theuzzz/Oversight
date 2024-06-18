@@ -1,13 +1,14 @@
 import React from "react";
 import Heading from "../../../components/Heading";
 import SubHeading from "../../../components/Subheading";
-import { Chip, Divider, Grid } from "@mui/material";
+import { Chip, Divider, Grid, Box, Button } from "@mui/material";
 import CardWrapper from "../../../components/CardWrapper";
 import Text from "../../../components/Text";
 import { useRouter } from "next/router";
 import { useGetBudget } from "../../../api/budgets";
 import BudgetServices from "../../../components/BudgetServices";
 import { budgetStatusToLabel } from "../../../components/BudgetCard";
+import Link from "next/link";
 
 const BudgetPage = () => {
   const { query } = useRouter();
@@ -29,7 +30,15 @@ const BudgetPage = () => {
             sx={{ display: "flex", justifyContent: "space-between", mb: 2 }}
           >
             <Heading title="Orçamento" subtitle={budget.name} />
-            <Chip label={budgetStatusToLabel[budget.status]} color="success" />
+            <Box sx={{ display: "flex", gap: 4 }}>
+              <Chip
+                label={budgetStatusToLabel[budget.status]}
+                color="success"
+              />
+              <Link href={`/budgets/${budgetId}/edit`}>
+                <Button>Editar</Button>
+              </Link>
+            </Box>
           </Grid>
           <Grid item xs={12}>
             <SubHeading title="Dados Básicos" />

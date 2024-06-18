@@ -1,15 +1,18 @@
-import { Box, Card, CardContent, Typography } from "@mui/material";
+import { Box, Card, CardContent, Typography, Button } from "@mui/material";
 import React from "react";
 import Text from "./Text";
+import Link from "next/link";
+import { useServiceMutations } from "../api/companies";
 
 type ListCardProps = {
   title: string;
   subtitle: string;
   rightText: string;
 };
-const ServiceCard = ({ name, description, value }: ListCardProps) => {
+const ServiceCard = ({ name, description, value, id }: ListCardProps) => {
+  console.log("%cXABLAU", "color: blue", name);
 
-  console.log('%cXABLAU','color: blue',name );
+  const { deleteService } = useServiceMutations();
   return (
     <Box
       sx={{
@@ -23,9 +26,18 @@ const ServiceCard = ({ name, description, value }: ListCardProps) => {
       }}
     >
       <Box>
-        <Text variant="h6">{name}</Text>
+        <Text variant="h6">
+          {name}{" "}
+          <Link href={`/services/${id}/edit`}>
+            <Button size="small">Editar</Button>
+          </Link>
+          <Button size="small" color="error" onClick={() => deleteService(id)}>
+            Excluir
+          </Button>
+        </Text>
         <Text variant="body2">{description}</Text>
       </Box>
+
       <Text variant="h6">R${value}</Text>
     </Box>
   );
