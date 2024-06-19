@@ -10,5 +10,5 @@ export const appRoutes = {
   companies: "/companies",
   companyById: "/companies/:companyId",
   costumers: "/customers",
-  costumerById: "/customers/:companyId",
+  costumerById: "/customers/:costumerId",
 };

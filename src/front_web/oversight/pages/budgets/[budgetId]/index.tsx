@@ -9,10 +9,14 @@ import { useGetBudget } from "../../../api/budgets";
 import BudgetServices from "../../../components/BudgetServices";
 import { budgetStatusToLabel } from "../../../components/BudgetCard";
 import Link from "next/link";
+import useModal from "../../../hooks/useModal";
+import SimpleModal from "../../../components/SimpleModal";
+import ServiceToBudgetForm from "../../../components/ServiceToBudgetForm";
 
 const BudgetPage = () => {
   const { query } = useRouter();
   const { budgetId } = query;
+  const addServiceModal = useModal();
 
   const { data, isLoading } = useGetBudget(budgetId);
 
@@ -59,12 +63,23 @@ const BudgetPage = () => {
               <Text variant="body1">{budget.description}</Text>
             </CardWrapper>
           </Grid>
+          <SimpleModal
+            open={addServiceModal.isOpen}
+            close={addServiceModal.close}
+            title="Novo Serviço"
+          >
+            <ServiceToBudgetForm
+              budgetId={budgetId}
+              callback={addServiceModal.close}
+            />
+          </SimpleModal>
 
           <Grid item xs={12}>
             <Divider sx={{ m: 0 }} />
           </Grid>
           <Grid item xs={12}>
             <SubHeading title="Serviços" />
+            <Button onClick={addServiceModal.open}>Adicionar serviço</Button>
           </Grid>
           <BudgetServices budgetId={budgetId} />
         </Grid>
