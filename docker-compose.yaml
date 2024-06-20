@@ -126,7 +126,7 @@ services:
       - PORT=80
       - ENV=dev #change to prod on deploy
       - DISABLE_ESLINT_PLUGIN=true
-      - NEXT_PUBLIC_API_ENDPOINT=http://0.0.0.0:3000
+      - NEXT_PUBLIC_API_ENDPOINT=http://localhost:3000
     expose:
       - 80
     networks:

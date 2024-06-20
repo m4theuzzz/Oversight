@@ -41,3 +41,17 @@ INSERT INTO Users (
     'matvsan@gmail.com',
     '0MmuISrw1hfyaXvCA6BcYkKGxNESFtTWC7hr/X7wLOWFuQsJkfqUOk+22vTk0/HpIJNklSiaVTv1GGTBLZc+5wWy1swI9eXaWPImwZ5N3fQ2IP1AYbqBB9Pu/iJXiNsAh7uwGP1zxAOL+QiLvEhceDGuY4I='
 );
+
+-- senha: hixbek-rapNib-semri3
+
+INSERT INTO Customers (
+    companyId,
+    name,
+    email,
+    phone
+) VALUES (
+    '73681c77-892e-49a6-9315-c1ca6ee01dfe',
+    'cliente 1',
+    'cliente@teste.com',
+    12345678
+);
